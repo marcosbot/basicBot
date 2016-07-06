@@ -102,7 +102,7 @@
         $.get("https://rawgit.com/Yemasthui/basicBot/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
-                langIndex = "https://rawgit.com/Yemasthui/basicBot/master/lang/pt-BR.jso;
+                langIndex = "https://rawgit.com/Yemasthui/basicBot/master/lang/pt-BR.json;
                 link = langIndex[basicBot.settings.language.toLowerCase()];
                 if (basicBot.settings.chatLink !== basicBot.chatLink) {
                     link = basicBot.settings.chatLink;
