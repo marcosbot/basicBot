@@ -237,7 +237,7 @@
 
     var basicBot = {
         version: "2.8.9",
-        status: false,
+        status: true,
         name: "BotOpau",
         loggedInID: null,
         scriptLink: "https://rawgit.com//marcosbot/basicBot/master/basicBot.js",
@@ -249,8 +249,8 @@
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "BOTOPAU",
-            language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            language: "portuguese",
+            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/pt-BR.json",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -259,7 +259,7 @@
             autoskip: false,
             smartSkip: true,
             cmdDeletion: true,
-            maximumAfk: 120,
+            maximumAfk: 60,
             afkRemoval: true,
             maximumDc: 60,
             bouncerPlus: true,
